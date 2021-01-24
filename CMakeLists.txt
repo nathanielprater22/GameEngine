@@ -7,7 +7,8 @@ include_directories(
 )
 
 set(SOURCE_FILES
-  "src/core/main.cpp"
+  "src/Core/main.cpp"
+  "src/Core/Game.cpp"
 )
 
 add_executable(${PROJ_NAME} ${SOURCE_FILES})
